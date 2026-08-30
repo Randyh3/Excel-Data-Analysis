@@ -85,39 +85,6 @@ Savings & Investment Allocation
 | **Scenario Analysis**  | Evaluating changes in income and expenses |
 | **Data Visualization** | Savings allocation chart                  |
 
----
-
-## 📁 Project Structure
-
-```text
-personal-finance-paycheck-model/
-│
-├── README.md
-├── Estimated_Take_Home_Pay.xlsx
-│
-└── screenshots/
-    ├── paycheck-model.png
-    ├── budget-model.png
-    └── savings-dashboard.png
-```
-
----
-
-## 📸 Model Preview
-
-### Paycheck Model
-
-*Add screenshot of the paycheck calculation section here.*
-
-### Budget & Savings Allocation
-
-*Add screenshot of the budgeting and savings section here.*
-
-### Visualization
-
-*Add screenshot of the savings chart here.*
-
----
 
 ## 💡 Business Use Case
 
