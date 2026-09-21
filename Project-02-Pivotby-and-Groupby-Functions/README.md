@@ -1,74 +1,116 @@
-# Project 02 – PIVOTBY & GROUPBY Functions
+# Project 02 - GROUPBY, PIVOTBY & Dynamic Array Reporting
 
 ## Overview
 
-This project explores Excel's `GROUPBY()` and `PIVOTBY()` functions to create dynamic, formula-based reports from sales data.
+This project demonstrates Excel's modern formula-based data analysis tools used to transform raw data into dynamic summary reports. It explores how GROUPBY, PIVOTBY, dynamic array functions, aggregation functions, and lookup functions can be combined to summarize, analyze, and visualize structured data.
 
-The project demonstrates how modern Excel dynamic-array functions can be used to summarize data, calculate percentages, create cross-tabulated reports, and build reports that automatically update when the underlying data changes.
+The project focuses on creating dynamic reports using GROUPBY and PIVOTBY formulas, calculating totals and percentages, creating cross-tab analyses, and building reports that update automatically when the underlying data changes.
 
-## Objectives
+## Skills Demonstrated
 
-* Summarize sales data using `GROUPBY()`
-* Create cross-tabulated reports using `PIVOTBY()`
-* Calculate total sales by category
-* Analyze sales by payment method
-* Calculate percentages of row, column, and grand totals
-* Build dynamic reports controlled by worksheet inputs
-* Understand the differences between PivotTables and formula-based reporting
+```text
+Data Analysis
+Raw Data & Structured Data
+Dynamic Array Functions
+Dynamic Spilled Arrays
+GROUPBY
+PIVOTBY
+Aggregation Functions
+SUM
+MEDIAN
+PERCENTOF
+ARRAYTOTEXT
+XLOOKUP
+VSTACK
+HSTACK
+DROP
+Field Relationships
+Cross-Tab Analysis
+Percentage Analysis
+Percentage of Total
+Dynamic Reports
+Formula-Based Reporting
+Data Visualization
+Scatter Charts
+Conditional Formatting
+```
 
-## Tools & Functions
+## What I Learned
 
-* Microsoft Excel
-* `GROUPBY()`
-* `PIVOTBY()`
-* `SUM`
-* `PERCENTOF`
-* `HSTACK()`
-* `VSTACK()`
-* Dynamic spilled-array formulas
-* Conditional formatting
-* Data validation
+```text
+Learned how dynamic array formulas can automatically spill results into multiple cells from a single formula.
 
-## Analysis
+Learned how GROUPBY can create summary reports by grouping data into categories and applying aggregation functions such as SUM and MEDIAN.
 
-### 1. GROUPBY Sales Analysis
+Used GROUPBY to summarize data and create PivotTable-like reports directly from formulas.
 
-`GROUPBY()` was used to summarize sales data based on row-level categories.
+Learned the different arguments available within the GROUPBY function, including row fields, values, aggregation functions, sorting, filtering, and field relationships.
 
-The function groups records and applies an aggregation function such as `SUM` to calculate the resulting values.
+Used field relationships to control how multiple grouping fields are organized within a GROUPBY report.
 
-This creates a dynamic report without requiring a traditional PivotTable.
+Used ARRAYTOTEXT within GROUPBY to create a unique list with multiple values combined into a single result.
 
-### 2. PIVOTBY Cross-Tab Analysis
+Used MEDIAN within GROUPBY to analyze the median value of data across different categories.
 
-`PIVOTBY()` was used to create a cross-tabulated report with variables placed in both the row and column fields.
+Used XLOOKUP within the values argument of GROUPBY to perform calculations without creating additional helper columns.
 
-This allows sales performance to be analyzed across multiple dimensions simultaneously.
+Used VSTACK to create custom headers for dynamically generated reports.
 
-### 3. Percentage Analysis
+Used HSTACK to combine multiple calculations into a single dynamic report.
 
-`PERCENTOF` was used to calculate sales percentages relative to different totals.
+Used PERCENTOF to calculate percentages of total values within a GROUPBY report.
 
-The analysis includes:
+Used DROP to remove unnecessary rows or columns from dynamically generated results.
 
-* Percentage of Column Total
-* Percentage of Row Total
-* Percentage of Grand Total
+Learned how calculations such as payroll hours can be performed directly inside the values argument of GROUPBY without requiring helper columns.
 
-### 4. Dynamic Report Controls
+Learned how PIVOTBY can create cross-tab reports by grouping data across both rows and columns.
 
-A worksheet input was connected to the `PIVOTBY()` calculation so that the user can change the percentage calculation without manually rebuilding the report.
+Used PIVOTBY to analyze values across multiple categories and create percentage-based reports.
 
-This demonstrates how Excel formulas can be used to create interactive reporting tools.
+Used PIVOTBY to calculate percentages relative to grand totals, parent row totals, and other report relationships.
 
-## Key Excel Concepts
+Created dynamic reports where the percentage calculation can be changed through an input cell.
 
-### Dynamic Array Formulas
+Learned how GROUPBY can be used to create source data for charts that cannot be directly created from a PivotTable.
 
-The reports are generated from formulas stored in a single cell and automatically spill into the required range.
+Created an X-Y scatter chart using dynamically summarized GROUPBY data.
 
-This allows the report to expand or contract based on the underlying data.
+Learned how formula-based reports update directly when the underlying source data changes instead of relying on a PivotTable cache refresh.
 
-### GROUPBY vs. PIVOTBY
+Applied conditional formatting to dynamically spilled reports to improve readability and highlight important results.
 
-`GROUPBY()` is useful when the analysis primarily requires grouping records by ro
+Learned how GROUPBY and PIVOTBY can reduce the need for helper columns while creating flexible and dynamic analysis reports.
+```
+
+## Excel Features Used
+
+```text
+GROUPBY
+PIVOTBY
+Dynamic Array Functions
+SUM
+MEDIAN
+PERCENTOF
+ARRAYTOTEXT
+XLOOKUP
+VSTACK
+HSTACK
+DROP
+Field Relationships
+Cross-Tab Reports
+Percentage Analysis
+Dynamic Spilled Arrays
+Conditional Formatting
+Scatter Charts
+Sorting & Filtering
+Dynamic Formula Reporting
+```
+
+## Why This Project Matters
+
+GROUPBY and PIVOTBY provide a formula-based approach to creating dynamic Excel reports and analyzing structured business data. This project strengthened my ability to summarize data, perform calculations without relying on helper columns, create cross-tab reports, and build analysis that updates directly when the underlying data changes.
+
+These skills are useful for business analytics, finance, FP&A, accounting, operations, and data analysis because they allow analysts to build flexible reporting solutions directly within Excel while reducing repetitive manual steps.
+
+The project also strengthened my understanding of modern Excel dynamic array functionality and how formula-based reporting can be combined with data visualization and conditional formatting to communicate analytical results.
